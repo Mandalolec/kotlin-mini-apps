@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home"
+        android:title="HOME" />
+
+    <item
+        android:id="@+id/ic_jkh"
+        android:icon="@drawable/ic_jkh"
+        android:title="ЖКХ" />
+
+    <item
+        android:id="@+id/ic_car"
+        android:icon="@drawable/ic_car"
+        android:title="ЦНА" />
+
+    <item
+        android:id="@+id/ic_dot"
+        android:icon="@drawable/ic_dot"
+        android:title="МДМТ" />
+
+    <item
+        android:id="@+id/ic_ruble_sign"
+        android:icon="@drawable/ic_ruble_sign"
+        android:title="КВ" />
+
+</menu>

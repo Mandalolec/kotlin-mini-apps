@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="200dp"
+        android:text="Посчитать" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="430dp"
+        android:layout_gravity="bottom|center"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/currentHuman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="370dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:hint="Количество человек"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/apartmentArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="320dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:hint="Площадь квартиры"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/metersData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="270dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:hint="Показания счетчиков"
+        android:inputType="number"
+        android:text="" />
+</FrameLayout>
